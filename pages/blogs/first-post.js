@@ -7,9 +7,9 @@ export default function FirstPost() {
   <>
   <Header />
     <Layout>
-      <h1>Minima creo sunt vis animadverto degenero inflammatio campana vinco qui defendo territo aqua perferendis voluptas.</h1>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
       <p>
-      Sum triumphus ager. Illum absorbeo ante. Accendo ventosus cedo. Aranea vobis admitto. Baiulus possimus deleo. Solum ultio cimentarius. Excepturi sit cena. Bis tamdiu animi. Amaritudo quibusdam claro. Thymbra in desipio. Traho versus cogo. Ascit corrupti modi. Cras conculco arma. Alo tener desino. Claustrum vereor colligo.
+    In arcu cursus euismod quis. Vitae et leo duis ut diam. Ipsum nunc aliquet bibendum enim facilisis gravida. Donec et odio pellentesque diam volutpat commodo sed. Aliquet risus feugiat in ante metus dictum at tempor. Quam lacus suspendisse faucibus interdum posuere. Scelerisque eleifend donec pretium vulputate sapien. Quis ipsum suspendisse ultrices gravida dictum. Facilisis mauris sit amet massa vitae tortor condimentum. Ac ut consequat semper viverra nam libero justo. Fermentum leo vel orci porta non pulvinar neque. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.
       </p>
     </Layout>
     </>
