@@ -1,17 +1,16 @@
-/* eslint-disable react/no-unescaped-entities */
 import Header from '@/components/header';
 import Layout from '../../components/layout';
 
-export default function FirstPost() {
+export default function FivePost() {
   return (
-  <>
-  <Header />
+    <>
+    <Header />
     <Layout>
-      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+      <h1>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
       <p>
-    In arcu cursus euismod quis. Vitae et leo duis ut diam. Ipsum nunc aliquet bibendum enim facilisis gravida. Donec et odio pellentesque diam volutpat commodo sed. Aliquet risus feugiat in ante metus dictum at tempor. Quam lacus suspendisse faucibus interdum posuere. Scelerisque eleifend donec pretium vulputate sapien. Quis ipsum suspendisse ultrices gravida dictum. Facilisis mauris sit amet massa vitae tortor condimentum. Ac ut consequat semper viverra nam libero justo. Fermentum leo vel orci porta non pulvinar neque. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.
+    Nunc congue nisi vitae suscipit tellus mauris a. Nibh tortor id aliquet lectus proin nibh. Rutrum quisque non tellus orci ac. Tempus quam pellentesque nec nam aliquam sem et tortor. Malesuada fames ac turpis egestas maecenas pharetra. Tortor id aliquet lectus proin nibh nisl. Ut placerat orci nulla pellentesque dignissim enim sit amet. Tincidunt lobortis feugiat vivamus at augue. Pellentesque nec nam aliquam sem et. Sed odio morbi quis commodo. In vitae turpis massa sed elementum tempus egestas. Pharetra vel turpis nunc eget lorem dolor sed. Tincidunt dui ut ornare lectus sit amet. Amet justo donec enim diam vulputate ut pharetra sit. Fames ac turpis egestas maecenas pharetra. Sociis natoque penatibus et magnis dis parturient montes.
       </p>
-    </Layout>
+      </Layout>
     </>
   );
 }
