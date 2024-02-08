@@ -6,10 +6,10 @@ export default function SecondPost() {
     <>
     <Header />
     <Layout>
-      <h1>Aperio deficio sum illum eum defleo summopere error totus.</h1>
+      <h1>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
       <p>
-      Molestiae denuo cuppedia. Certo cetera ambitus. Vilis vae utique. Apparatus curriculum viscus. Architecto currus triduana. Atqui crur absens. Baiulus tremo deficio. Defendo abscido abduco. Cibus usque caput. Ocer comparo vulticulus. Et dolores decimus. Somnus venio atqui. Una ter supra. Altus dens bardus. Expedita modi venio. Aurum cum reiciendis.
-      </p>
+    Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nec sagittis aliquam malesuada bibendum. Nibh cras pulvinar mattis nunc sed. Sodales ut eu sem integer vitae. Orci phasellus egestas tellus rutrum tellus pellentesque. Velit euismod in pellentesque massa. Varius morbi enim nunc faucibus a pellentesque sit amet. Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Diam quis enim lobortis scelerisque fermentum dui faucibus. Euismod nisi porta lorem mollis aliquam ut.
+    </p>
       </Layout>
     </>
   );
