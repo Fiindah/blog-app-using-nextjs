@@ -6,9 +6,9 @@ export default function ThreePost() {
     <>
     <Header />
     <Layout>
-      <h1>Dedecor vitiosus utilis commodo sursum officia quo decor non vesper.</h1>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
       <p>
-      Recusandae sint canonicus. Decimus speciosus contego. Civis vesper cultellus. Vulpes cursim corporis. Vestigium substantia spero. Odio aequus architecto. Laborum conspergo aperio. Commemoro vesco currus. Comptus distinctio earum. Vespillo tamisium via. Tamen tabula dens. Timor calculus necessitatibus. Aegrus ut molestiae. Adicio aestas aegre. Cum ager sequi. Calco crinis pecco. Facere absconditus molestiae. Vitiosus repellendus debeo.
+      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis eu non diam phasellus vestibulum. Sit amet porttitor eget dolor morbi non. Sed sed risus pretium quam vulputate dignissim. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Elit pellentesque habitant morbi tristique senectus et. Ultricies lacus sed turpis tincidunt id aliquet risus. Posuere ac ut consequat semper viverra nam libero. Id aliquet risus feugiat in ante metus dictum. Cras sed felis eget velit aliquet sagittis. Nunc non blandit massa enim. Nec sagittis aliquam malesuada bibendum arcu. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Interdum varius sit amet mattis vulputate enim nulla aliquet. Integer vitae justo eget magna fermentum iaculis eu non diam.
       </p>
       </Layout>
     </>
