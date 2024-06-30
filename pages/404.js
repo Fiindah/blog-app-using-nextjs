@@ -15,9 +15,9 @@ const NotFound = () => {
 
   return (
     <div className="not-found">
-      <h1>Ooops...</h1>
-      <h2>That page cannot be found :(</h2>
-      <p>Going back to the <Link href="/"><a>Homepage</a></Link> is 3 seconds...</p>
+      <h1>Terima kasih<br> atas kesabarannya.</h1>
+      <h2>InsyaAllah loading tidak akan lama.</h2>
+      <p>Kembali ke <Link href="/"><a>Homepage</a></Link> dalam 3 detik...</p>
     </div>
   );
 }
