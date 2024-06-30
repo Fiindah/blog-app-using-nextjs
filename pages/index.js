@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pondok IT | Home</title>
+        <title>Muslim Code | Home</title>
         <meta name="keywords" content="ninjas"/>
       </Head>
       <div>
