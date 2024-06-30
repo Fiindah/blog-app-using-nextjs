@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Pondok IT | About</title>
+        <title>Muslim Code | About</title>
         <meta name="keywords" content="ninjas"/>
       </Head>
       <div>
