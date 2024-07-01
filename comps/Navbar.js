@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src="/logo-eid-mubarak.png" alt="site logo" width={128} height={77} />
+        <h1>Pondok IT</h1>
       </div>
       <Link href="/"><a>Home</a></Link>
       <Link href="/about"><a>About</a></Link>
