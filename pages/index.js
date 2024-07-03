@@ -10,9 +10,15 @@ export default function Home() {
         <meta name="keywords" content="santris"/>
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
+        <div className={styles.hero}>
+          <div className={styles.avatar}>
+            <Image src="public/img/hero.jpg" alt="gambar komputer" width={300} height={200} />
+          </div>
+          <div className={styles.intro}>
+            <h1 className={styles.text}>Pondok IT & Mengaji</h1>
+            <p className={styles.baris}>Mari menjadi muslim yang melek IT.</p>
+          </div>
+        </div>
         <Link href="/santris/">
           <a className={styles.btn}>Lihat Daftar Peringkat</a>
         </Link>
