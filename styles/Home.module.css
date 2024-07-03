@@ -16,3 +16,9 @@
   color: white;
   text-align: center;
 }
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
