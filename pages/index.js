@@ -1,28 +1,58 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import { useEffect, useState } from 'react';
+import { fetchFoodData } from './api/hello';
 
-export default function Home() {
+const Home = () => {
+  const [foods, setFoods] = useState([]);
+
+  useEffect(() => {
+    const getFoodData = async () => {
+      const data = await fetchFoodData();
+      setFoods(data);
+    };
+    getFoodData();
+  }, []);
+
   return (
-    <>
-      <Head>
-        <title>Pondok IT | Home</title>
-        <meta name="keywords" content="santris"/>
-      </Head>
-      <div>
-        <div className={styles.hero}>
-          <div className={styles.avatar}>
-            <Image src="public/img/hero.jpg" alt="gambar komputer" width={300} height={200} />
-          </div>
-          <div className={styles.intro}>
-            <h1 className={styles.text}>Pondok IT & Mengaji</h1>
-            <p className={styles.baris}>Mari menjadi muslim yang melek IT.</p>
-          </div>
-        </div>
-        <Link href="/santris/">
-          <a className={styles.btn}>Lihat Daftar Peringkat</a>
-        </Link>
+    <div className="container">
+      <h1>Daftar Resep Makanan</h1>
+      <div className="food-list">
+        {foods.map(food => (
+          <div key={food.idMeal} className="food-item">
+            <h2>{food.strMeal}</h2>
+            <img src={food.strMealThumb} alt={food.strMeal} />
+            <p>{food.strInstructions.substring(0, 150)}...</p>
+            <button>Selengkapnya</button>
+            </div>
+        ))}
       </div>
-    </>
-  )
-}
+      <style jsx>{`
+        .container {
+          max-width: 800px;
+          margin: auto;
+          padding: 2rem;
+        }
+        .food-list {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 2rem;
+        }
+        .food-item {
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 1rem;
+          text-align: center;
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+        p {
+          text-align: justify;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default Home;
